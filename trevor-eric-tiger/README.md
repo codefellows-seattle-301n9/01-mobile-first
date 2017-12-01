@@ -8,8 +8,6 @@ This application is a blog that utilizes responsive web design to achieve functi
 
 ## Getting Started
 
-
-
 ## Architecture
 We ended up using the Icomoon.io library, Atom, and Google Dev tools.
 
