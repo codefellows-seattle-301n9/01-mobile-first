@@ -1,0 +1,14 @@
+ul{
+    max-height: 0;
+    overflow: hidden;
+}
+
+nav input[type="checkbox"]:checked ~ ul{
+    max-height: 150px;
+}
+
+.hidden{
+    position: fixed;
+    top: -100%;
+    left: -100%;
+}
