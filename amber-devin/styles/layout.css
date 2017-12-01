@@ -1,0 +1,18 @@
+main{
+    padding: 5%;
+}
+
+footer {
+    padding: 5%;
+}
+
+/*stretch goal. intermediate media query*/
+@media only screen and (orientation: landscape) {
+    .site-header {
+        padding: 3% 5%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+        
+}
