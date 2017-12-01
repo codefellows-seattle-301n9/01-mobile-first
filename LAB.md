@@ -4,7 +4,7 @@
 
 ## Code Wars Challenge
 
-Complete [today's Kata](https://www.codewars.com/kata/abbreviate-a-two-word-name) and follow the submission instructions below.
+Complete [today's Kata](https://www.codewars.com/kata/my-head-is-at-the-wrong-end) and follow the submission instructions below.
 
 ## Code Wars Challenge Submission Instructions
 
