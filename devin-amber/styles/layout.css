@@ -1,14 +1,6 @@
-ul{
-    max-height: 0;
-    overflow: hidden;
+main{
+    padding: 5%;
 }
-
-nav input[type="checkbox"]:checked ~ ul{
-    max-height: 150px;
-}
-
-.hidden{
-    position: fixed;
-    top: -100%;
-    left: -100%;
+@media only screen and (min-width: 640px) {
+        
 }
