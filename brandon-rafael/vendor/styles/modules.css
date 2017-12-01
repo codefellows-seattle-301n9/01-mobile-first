@@ -22,6 +22,7 @@
 .main-nav ul {
     list-style:  none;
     padding-left: 0;
+    /* display: none; */
 }
 
 .main-nav ul li {
@@ -52,4 +53,21 @@
 
 .byline time {
     color: #777;
+}
+.toggle-menu {
+    display: none;
+}
+@media all and (min-width: 640px) {
+    .hamburger{
+        display: none;
+    }
+    .main-nav ul li {
+        display: inline-block;
+        border-bottom: 0;
+    }
+    .main-nav ul {
+        padding-left: 15px;
+        padding-bottom: 15px;
+        display: block;
+    }
 }
