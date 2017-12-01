@@ -2,13 +2,32 @@
 =======
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
+## Code Wars Challenge
+
+Complete [today's Kata](https://www.codewars.com/kata/abbreviate-a-two-word-name) and follow the submission instructions below.
+
+## Code Wars Challenge Submission Instructions
+
+1. With your assigned partner, pseudocode your solution on the whiteboard. Take a picture of your proposed solution for your repo.
+1. Complete the daily Kata(s).
+1. Create a new branch for each challenge.
+1. Make a new folder in your Code Wars repository on Github. The name of the folder should be the same as the name of the challenge.
+1. This folder should contain:
+	- A file named "solution.js" which contains the JavaScript solution *after confirming that it passes on Code Wars with green passing tests*
+	- A picture of your pseudocoded solution from the whiteboarding exercise
+	- A README.md which includes the problem domain from Code Wars and a link to the challenge
+1. Make a pull request from your working branch to your master branch.
+1. Submit a link to your PR on Canvas.
+
+## Lab 01
+
 Welcome to your first lab assignment for Code 301!!
 
 Today we'll be kicking off our blog app by applying what we learned in lecture to implement a mobile-first design using responsive web design techniques. You'll also need to spend some time getting familiar with the new Git/GitHub & Pair Programming workflow that we'll utilize throughout this course.
 
 *Please take the time to read carefully through each of the READMEs for lab assignments as they have detailed information regarding your assignment, such as: submission instructions, resources, configuration, user stories with feature tasks, and documentation.*
 
-## Submission Instructions
+## Lab 01 Submission Instructions
 When you are finished with lab, follow these steps to submit your work. Create one pull request (aka: "PR") from your forked repo to the CF repo with your changes, and you'll each submit that same PR link in Canvas.
 
 1. Be sure to remember to do all of your work on non-master branches.
@@ -75,7 +94,6 @@ The navigator (who will become the new driver):
   - Open the code in your editor and resume editing the code.
   - Add, commit, push as you have done before.
 
-
 ---
 
 ## Resources  
@@ -100,25 +118,24 @@ _Your repository must include:_
 ├── index.html
 ├── styles
 │   ├── base.css
-│   ├── fonts
-│   │   ├── icomoon.eot
-│   │   ├── icomoon.svg
-│   │   ├── icomoon.ttf
-│   │   └── icomoon.woff
-│   ├── icons.css
 │   ├── layout.css
 │   └── modules.css
 └── vendor
     └── styles
+		    ├── fonts
+		    │   ├── icomoon.eot
+		    │   ├── icomoon.svg
+		    │   ├── icomoon.ttf
+		    │   └── icomoon.woff
+		    ├── icons.css
         └── normalize.css
 ```
 
-
---
+---
 
 ## User Stories and Feature Tasks
 
-*As a user, I want to have an application that looks good, is easy to use, and is updated often, so that I want to come back and use it frequently.
+*As a user, I want to have an application that looks good, is easy to use, and is updated often, so that I want to come back and use it frequently.*
 
 - Working from the provided comp images, write CSS such that the browser rendering matches the images as closely as possible.
 - Utilize the icon fonts located in `styles/icons.css` for navigation features as shown in the comp images.
