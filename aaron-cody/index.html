@@ -6,13 +6,20 @@
   <!-- DONE: Add a meta tag to properly set the viewport and initial scale -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- DONE: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="vendor/styles/normalize.css">
   <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
-  <link rel="stylesheet" href="styles/icons.css">
+  <link rel="stylesheet" href="vendor/styles/icons.css">
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <link rel="stylesheet" href="vendor/styles/base.css">
+  <link rel="stylesheet" href="vendor/styles/layout.css">
+  <link rel="stylesheet" href="vendor/styles/modules.css">
+  <link rel="stylesheet" href="icomoon/hamburger-icon.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- PUT YOUR RESPONSE HERE -->
+  <!-- first link to the normalize.css file will make our page start at the same dimensions regardless of what browser window is being used
+    icons.css is the next css file to be rendered which contains all the icons such as the hamburger menu.
+    our base, layout, and modules are applied to the page in the order that they are needed with the base first then the parent (layout) then the child (modules)
+  -->
 
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
@@ -21,7 +28,10 @@
   <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
-    <!-- PUT YOUR RESPONSE HERE -->
+    <!-- A clearfix is a way for an element to automatically clear its child elements, so that you don't need to add additional markup. It's generally used in float layouts where elements are floated to be stacked horizontally.
+    citation: https://stackoverflow.com/questions/8554043/what-is-a-clearfix 
+    in other words a clearfix is a way to clean up your html file by using fewer lines of code and making it less muddy and instead clearing the floats as one big group in your  corresponding css file
+    -->
 
     <section class="heading-group-h1">
       <h1>
@@ -30,14 +40,15 @@
       <h2>The shocking power of static pages</h2>
     </section>
     <nav class="main-nav">
-      <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
-
+      <!-- DONE: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
+      <span class="icon-menu" ></span>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
         <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
         <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
+      
     </nav>
   </header>
   <main>
