@@ -12,9 +12,14 @@ This application is a blog that utilizes responsive web design to achieve functi
 We ended up using the Icomoon.io library, Atom, and Google Dev tools.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+
+11-30-17 06:30pm - Create style sheets; base.css, layout.css, modules.css forked started code and added hamburger icon in mobile first.
+
+11-30-17 07:45pm - Completed README.md
+
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application.
+
+https://github.com/trevorjdobson/01-mobile-first
