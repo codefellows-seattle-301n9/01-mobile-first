@@ -1,11 +1,33 @@
+.main-nav {
+    padding: 0px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: gray;
+}
+
 @media all and (max-width:640px){
     .nav-list {
         visibility: hidden;
+    }
+
+    .nav-list li {
+        line-height: 30px;
+        border: 5px, solid, lightgray;
     }
 }
 
 @media all and (min-width:640px){
     .icon-menu {
         visibility: hidden;
+    }
+    img {
+        float: right;
+    }
+    .nav-list li {
+        display: inline-block;
+        padding-left: 10px;
+        padding-bottom: 15px;
     }
 }
