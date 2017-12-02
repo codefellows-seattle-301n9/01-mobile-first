@@ -88,9 +88,10 @@ Here is the recommended workflow:
 The navigator (who will become the new driver):
 
   - Clone the repo from the link your partner Slacked you into your working directory.
-  - See the above <a href="#directory">directory structure</a> for what you should have on your file system and navigate into the subdirectory named after you and your partner.
   - Fetch the branch you were just working on (`git fetch origin <driverName-navigatorName>`)
-  - Switch to that branch (`git checkout -b <driverName-navigatorName>`).
+  - Switch to that branch (`git checkout --track origin/<driverName-navigatorName>`).
+  - NOTE: `<driverName-navigatorName>` should stick with the *original* roles, e.g. branch named `allie-sam` stays same even when Sam switched to being driver.
+  - Navigate into the subdirectory named after you and your partner.
   - Open the code in your editor and resume editing the code.
   - Add, commit, push as you have done before.
 
