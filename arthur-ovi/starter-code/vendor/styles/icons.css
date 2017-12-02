@@ -68,3 +68,9 @@
 .icon-github:before {
 	content: "\e907";
 }
+
+@media screen and (min-width: 801px) {
+	.icon-menu:before {
+		display:none;
+	}
+}
