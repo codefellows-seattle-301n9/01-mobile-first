@@ -1,0 +1,11 @@
+@media all and (max-width:640px){
+    .nav-list {
+        visibility: hidden;
+    }
+}
+
+@media all and (min-width:640px){
+    .icon-menu {
+        visibility: hidden;
+    }
+}
