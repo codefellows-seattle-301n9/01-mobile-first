@@ -19,4 +19,7 @@
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
-Collaboration (Pair-Programming): Ryan Johnson
+Collaboration (Pair-Programming): Chris Lesesne and Ryan Johnson
+Normalize.css credit: http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
