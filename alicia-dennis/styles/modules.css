@@ -1,14 +1,10 @@
 /*TODO: logos, classes*/
 
-.site-header {
-    background:rgb(250, 233, 151);   
-}
-
 .heading-group-h1 {
+    background:rgb(250, 233, 151);      
     float: left;
-    padding: 0 10px 15px 5px;
-    width: 100%;
-    background:rgb(250, 233, 151);       
+    padding: 10px 10px 5px 10px;
+    width: 100%; 
 }
 
 .icon-menu {
@@ -21,7 +17,7 @@
 }
 
 .main-nav {
-    padding: 5%;
+    padding: 0.1em;
 }
 
 .main-nav ul {
@@ -29,6 +25,10 @@
     padding: 0;
     list-style: none;
     clear: both;
+}
+
+.main-nav:hover ul {
+    display: block;
 }
 
 .main-nav li {
@@ -43,8 +43,22 @@
     color: grey; 
 }
 
+#filters {
+    padding: 0;
+    list-style: none;
+}
+
+.template {
+    display: none;
+}
+
 .byline {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    color: grey;
+}
+
+@media only screen (minimum 640px) {
+
+.icon-menu {
+    display
+}
 }
