@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.hamburger').click(function() {
-      $('.main-nav ul').toggleClass('toggle-menu');
+    $('.hamburger').on('click', function() {
+      $('.main-nav ul').slideToggle();
     });
 });

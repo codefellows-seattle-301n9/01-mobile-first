@@ -5,6 +5,8 @@
     top: 5px;
     right: 0;
     padding: 2px;
+    background-color: transparent;
+    border: 0;
 }
 .hamburger .bar {
     background: #313131;
@@ -22,7 +24,7 @@
 .main-nav ul {
     list-style:  none;
     padding-left: 0;
-    /* display: none; */
+    display: none;
 }
 
 .main-nav ul li {
@@ -68,6 +70,6 @@
     .main-nav ul {
         padding-left: 15px;
         padding-bottom: 15px;
-        display: block;
+        display: block !important;
     }
 }
