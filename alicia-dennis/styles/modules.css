@@ -1,0 +1,50 @@
+/*TODO: logos, classes*/
+
+.site-header {
+    background:rgb(250, 233, 151);   
+}
+
+.heading-group-h1 {
+    float: left;
+    padding: 0 10px 15px 5px;
+    width: 100%;
+    background:rgb(250, 233, 151);       
+}
+
+.icon-menu {
+    position: absolute;
+    font-size: 40px;
+    top: 2px;
+    right: 1px;
+    margin-left: 4px;
+    float: right;
+}
+
+.main-nav {
+    padding: 5%;
+}
+
+.main-nav ul {
+    display: none;
+    padding: 0;
+    list-style: none;
+    clear: both;
+}
+
+.main-nav li {
+    margin-right: .4em;
+    font-size: 1.5em;
+    padding: .5em .2em;
+    border-bottom: 1px solid white;
+}
+
+.byline time address{
+    font-size: 12px;
+    color: grey; 
+}
+
+.byline {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
