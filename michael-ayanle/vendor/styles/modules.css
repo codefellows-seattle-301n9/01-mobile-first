@@ -1,0 +1,41 @@
+.article-body img {
+    float: right;
+    padding: 20px;
+}
+.site-header{
+    background-color: rgb(240, 199, 130);
+}
+.heading-group-h1{
+    font-style: bold;
+}
+.icon-github, .icon-twitter3, .icon-address-book, .icon-home{
+    color: orange;
+}
+
+.byline{
+    color:#595959;
+    display: inline-flex;
+    padding: 5px;
+    vertical-align: middle;
+}
+.byline address, .byline time {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.byline a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#595959;
+}
+
+.icon-menu {
+  display: block;
+  font-size: 2em;
+
+}
+
+@media only screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+}
