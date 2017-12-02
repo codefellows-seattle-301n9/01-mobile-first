@@ -1,0 +1,26 @@
+/* MOBILE */
+@media screen and (max-width: 640px) {
+    .nav-list {
+        display: none;
+    }
+
+    .icon-menu:hover ~ .nav-list {
+        display: block;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 640px) {
+    .icon-menu {
+        display: none;
+    }
+
+    .nav-list {
+        margin-left: 2em;
+    }
+
+    .nav-list li {
+        display: inline;
+        font-size: 1em;
+    }
+}
