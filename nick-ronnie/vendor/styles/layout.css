@@ -1,0 +1,12 @@
+.site-header {
+   background-color: #ffe9ad ;
+}
+.heading-group-h1 {
+   padding: 0 15px;
+   padding-bottom: 15px;
+}
+@media all and (min-width: 640px) {
+   .heading-group-h1 {
+       padding-bottom: 0px;
+   }
+}
