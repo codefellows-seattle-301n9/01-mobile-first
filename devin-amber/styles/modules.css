@@ -1,0 +1,43 @@
+.menu{
+    max-height: 0;
+    overflow: hidden;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.menu li a{
+    font-size: 1.2em;
+}
+.menu li{
+    padding-bottom: 10px; 
+    padding-top: 10px;
+    border-bottom: 1px solid #cacaca;
+    padding-left: 0;
+    margin-left: 0;
+}
+.icon-menu:before {
+    content: "☰";
+}
+.hidden{
+    position: fixed;
+    top: -100%;
+    left: -100%;
+}
+.site-header{
+    background-color: #ffeaa9;
+    padding: 5%;
+}
+.icon-menu{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+}
+nav input[type="checkbox"]:checked ~ ul{
+    max-height: 200px;
+}
+.byline{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
