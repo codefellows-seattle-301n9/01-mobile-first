@@ -1,0 +1,45 @@
+.heading-group-h1 {
+    background-color: lightgoldenrodyellow;
+    font-weight: bold;
+}
+
+.heading-text {
+    width: 70%;
+    line-height: 2em;
+    font-size: 3vw;
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+#heading-text-h1 {
+    padding-top: 2%;
+}
+
+.icon-menu {
+    position: relative;
+    bottom: 16vw;
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+}
+
+.byline {
+    display: inline;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: gray;
+}
+
+/* MOBILE */
+@media screen and (max-width: 640px) {
+    body {
+        width: 100%;
+    }
+}
+/* DESKTOP*/
+@media screen and (min-width: 640px) {
+    
+}
