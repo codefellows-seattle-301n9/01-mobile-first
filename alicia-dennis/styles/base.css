@@ -1,0 +1,33 @@
+/*TODO: global font...*/
+
+main {
+    padding: 5%;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 100%;
+    color: #313131;
+    width: 100%;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+address {
+    font-style: italic;
+    display: inline-block;
+}
+
+article {
+    border-bottom: 2px solid black;
+    margin: 0 2.5%; 
+}
+
+a, a:link {
+    text-decoration: none;
+    color: #817f7f;
+    font-weight: bold;
+}
