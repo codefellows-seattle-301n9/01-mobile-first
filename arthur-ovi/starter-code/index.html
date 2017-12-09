@@ -12,10 +12,10 @@
   <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
   <link rel="stylesheet" type="text/css" href="vendor/styles/icons.css">
 
-  <!-- DONE: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-  <link rel="stylesheet" type="text/css" href="styles/base.css">
-  <link rel="stylesheet" type="text/css" href="styles/layout.css">
-  <link rel="stylesheet" type="text/css" href="styles/modules.css">
+  <!-- STILL TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <link rel="stylesheet" href="vendor/styles/base.css">
+  <link rel="stylesheet" href="vendor/styles/layout.css">
+  <link rel="stylesheet" href="vendor/styles/modules.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- We put the base css first, and the children css files afterwards. Whichever selectors get called last override the previous ones, so it makes sense to call the depenent css files after the base css file because we be overriding some styles in the modules.css for example. -->
@@ -36,7 +36,7 @@
       <h2>The shocking power of static pages</h2>
     </section>
     <nav class="main-nav">
-      <!-- HALF DONE: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). --> 
+      <!-- DONE: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). --> 
       <div class="icon-menu"></div>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
