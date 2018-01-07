@@ -4,6 +4,11 @@
         display: none;
     }
 
+    .nav-list li {
+        display: inline;
+        font-size: 1em;
+    }
+
     .icon-menu:hover ~ .nav-list {
         display: block;
     }
