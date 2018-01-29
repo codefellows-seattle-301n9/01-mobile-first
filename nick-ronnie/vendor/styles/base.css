@@ -1,0 +1,13 @@
+* {
+   font-family: Helvetica;
+   color: #313131 ;
+}
+
+img {
+   max-width: 100%;
+   padding: 15px 0;
+}
+
+main {
+   padding: 0 15px;
+}
